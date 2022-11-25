@@ -1,0 +1,46 @@
+@import "reset.css";
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    line-height: 27px;
+    margin-top: 36px;
+    font-weight: 400;
+}
+
+
+header ul li a.header_item-1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 199px;
+}
+
+
+header ul li a.header_item-2 {
+    margin-left: 70px;
+}
+
+
+header ul li a.header_item-3 {
+    background-color: #ffcc01;
+    padding: 14px 25px;
+    border-radius: 5px;
+}
+
+
+button.burger {
+    display: none;
+}
