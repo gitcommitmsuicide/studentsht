@@ -44,3 +44,88 @@ header ul li a.header_item-3 {
 button.burger {
     display: none;
 }
+
+
+section.company div.content{
+    display: flex;
+    margin-top: 145px;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+
+section.company div.content_text{
+    width: 48%;
+}
+
+
+section.company div.content_text h2.text_title{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: -1px;
+    color: #1f373d;
+    margin-bottom: 45px;
+}
+
+
+section.company div.content_text h2.text_title span.divider {
+    display: block;
+}
+
+
+section.company div.content_text p.text_description{
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #1f373d;
+}
+
+
+section.company div.content_text p.text_description span.divider {
+    display: block;
+    margin-top: 20px;
+
+}
+
+
+section.company p.content_text{
+    margin-bottom: 40px;
+}
+
+
+section.company div.content_status{
+    display: grid;
+    grid-template-columns: repeat(2, 201px);
+    grid-template-rows: repeat(2, 201px);
+    grid-gap: 29px;
+}
+
+
+section.company div.content_status div.status_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f5f4;
+    
+}
+
+
+section.company div.content_status div.status_item p.item_title{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: -1px;
+    color: #ffcc01;
+}
+
+
+section.company div.content_status div.status_item p.item_subtitle{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #1f373d;
+}
